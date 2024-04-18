@@ -3,7 +3,7 @@ name: Build and Push Rust Docker Image
 on:
   push:
     branches:
-      - main
+      - master
       
 env:
   REGISTRY: ghcr.io
